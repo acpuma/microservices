@@ -1,0 +1,6 @@
+version: '3'
+services:
+  configservice:
+    image: server-config
+    ports:
+      - "8071:8071"
