@@ -7,4 +7,5 @@ tasks:
         cd server-config 
         mvn install -DskipTests=false
 
-
+image:
+  file: .gitpod.Dockerfile
